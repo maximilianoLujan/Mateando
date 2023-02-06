@@ -36,7 +36,7 @@ export default function HeaderMovil(){
                 </div>
             </div>
             <AnimatePresence>
-                {menuVisible &&
+                {menuVisible && 
                     (<motion.div
                         key='modal'
                         initial={{ width: 0 }}            
