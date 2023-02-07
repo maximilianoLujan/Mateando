@@ -1,3 +1,4 @@
+import HeaderDesktop from "./HeaderDesktop";
 import HeaderMovil from "./HeaderMovil";
 
 export default function Header(){
@@ -6,6 +7,7 @@ export default function Header(){
             {/*Header para la version movil y tablet */}
                 <HeaderMovil />
             {/*Header para la version desktop */}
+                <HeaderDesktop /> 
         </header>
     )
 }
