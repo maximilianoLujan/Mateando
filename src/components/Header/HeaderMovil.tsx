@@ -57,7 +57,7 @@ export default function HeaderMovil(){
                         exit={{ width: 0 }}
                         transition={{duration:1}}
                         className="w-screen overflow-hidden absolute items-center flex flex-col h-96 bg-principal rounded-b-3xl"
-                        style={{bottom:'-392px'}}
+                        style={{bottom:'-392px',boxShadow:'0px 10px 4px rgba(150, 112, 51, 0.25)'}}
                     >
                         <h1 className="text-2xl font-bold">MATEANDO</h1>
                         <svg width="174" height="64" viewBox="0 0 174 64" fill="none" xmlns="http://www.w3.org/2000/svg">
